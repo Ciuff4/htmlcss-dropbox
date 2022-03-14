@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/general.css">
     <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -11,17 +12,42 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="clearfix w100">
 
-        <div class="clearfix">
-            <div class="col">
-                <div class="logo">LOGO</div>
-                <div class="nav-1"></div>
+        <div class="float-left col50">
+
+            <div class=" box logo">
+                <a href="#">
+                    <img src="./assets/img/logo-small.png" alt="">
+                </a>  
             </div>
-            <div class="col">
-                <div class="nav-2"></div>
-                <a href="#">BOTTONE</a>
+            <div class="box nav-1">
+                <nav>
+                    <ul>
+                        <li><a href="#">Perch&eacute; Dropbox</a></li>
+                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Piani e prezzi</a></li>
+                    </ul>
+                </nav>
             </div>
+
+        </div>
+        
+        <div class="float-left col50 col-dx">
+
+            <div class="box nav-2">
+                <nav>
+                    <ul>
+                        <li><a href="#">Perch&eacute; Dropbox</a></li>
+                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Piani e prezzi</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="box">
+                <a class="button" href="#">Inizia</a>
+            </div>
+
         </div>
 
     </header>
@@ -31,14 +57,24 @@
     <div class="jumbotron">
 
         <div class=" clearfix jumbo-text">
-            <h1>TITOLO</h1>
-            <div class="col">
-                <p></p>
-                <a href="#">BOTTONE</a>
-                <span>testo</span>
-                <span>freccetta</span>
+            <div class="title">
+                <h1>Tutto ciò che ti serve per il lavoro,<br> in un unico posto</h1>
             </div>
-            <div class="col">IMMAGINE</div>
+            <div class="float-left col40">
+                <p>
+                    Finalmente tutti i tuoi strumenti, contenutie collaboratori sono accessibili dallo stesso posto.Dropbox Business &eacute; pi&uacute; di uno spazio di archiviazione sicuro: &eacute;un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                </p>
+                
+                <a class="button" href="#">Inizia la tua prova gratuita</a>
+
+                <span class="unsub">Annulla in qualsiasi momento</span>
+                
+                <span><i class="fa-solid fa-arrow-down"></i></span>
+                
+            </div>
+            <div class="float-left col60">
+                <img src="./assets/img/jumbo.png" alt="">
+            </div>
         </div>
 
     </div>
@@ -70,23 +106,34 @@
         </section>
         <!-- /OPERATIONS -->
 
-        <!-- CALL-TO-ACTION -->
+        <!-- 1st-CALL-TO-ACTION -->
         <section>
 
             <div class="container"></div>
 
         </section>
-        <!-- /CALL-TO-ACTION -->
+        <!-- /1st-CALL-TO-ACTION -->
 
         <!-- PARTNERS -->
         <section>
 
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+            <div class="clearfix">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
 
         </section>
         <!-- /PARTNERS -->
+
+        <!-- 2nd-CALL-TO-ACTION -->
+        <section>
+            <div class="container clearfix">
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </section>
+        <!-- /2nd-CALL-TO-ACTION -->
 
         <!-- FAQ -->
         <section>
@@ -99,7 +146,17 @@
     <!-- /MAIN -->
 
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <!-- <hr> -->
+            <span></span>
+        </div>
+    </footer>
     <!-- /FOOTER -->
 </body>
 </html>

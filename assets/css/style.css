@@ -1,0 +1,63 @@
+/* HEADER */
+
+header{
+    height: 50px;
+    line-height: 50px;
+}
+
+header .col50{
+    padding:0 1%;
+}
+
+.col-dx{
+    text-align: right;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* /HEADER */
+
+/* JUMBOTRON */
+
+.jumbotron{
+    background-color: #B4D0E7;
+}
+
+.jumbo-text{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 68px;
+    padding-top: 60px;
+}
+
+.jumbo-text .col40 p{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.jumbo-text .col40 span{
+    display: block;
+    padding: 20px 0;
+}
+
+.unsub{
+    font-size: 13px;
+}
+
+.jumbo-text .col40 span i{
+    font-size: 35px;
+}
+
+.jumbo-text .col60 img{
+    width: 100%;
+    position: relative;
+    bottom: -60px;
+    right: 0;
+}
+/* /JUMBOTRON */

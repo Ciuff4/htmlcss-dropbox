@@ -1,3 +1,52 @@
-.col{
+.float-left{
     float: left;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col50{
+    width:50%;
+}
+
+.col60{
+    width: 60%;
+}
+
+.col40{
+    width: 40%;
+}
+
+.box{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li{
+    list-style: none;
+}
+
+.button{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 10px;
+}
+
+.w100{
+width: 100vw;
+}
+
+/* DEBUG */
+.red{
+    background-color: red;
+}
+
+.h50{
+    height: 50px;
 }
