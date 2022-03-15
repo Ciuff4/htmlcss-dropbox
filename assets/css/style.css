@@ -73,28 +73,37 @@ h1{
     margin-top: 60px;
 }
 
-.plan-text{
-    padding-left: 15px;
-    
-}
-
-.piani .main-title{
+.main-title{
     padding: 70px 0 40px 0;
     font-size: 50px;
 }
 
-.piani .col33{
-    border:1px solid black;
+.border{
+    border:1px solid gray;
+}
+
+.margin5{
+    margin-right: 5%;
+}
+
+.row{
+    padding-bottom: 30px;
 }
 
 .plan-title{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
 }
 
-.col33 .plan-text ul li{
+.plan-text{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.col30 .plan-text ul li{
     padding: 7px 0;
 }
 
@@ -106,7 +115,7 @@ h1{
     color: gray;
 }
 
-.col33 .plan-text .button{
+.col30 .plan-text .button{
     margin: 20px 0;
 }
 
@@ -130,4 +139,24 @@ h3{
     font-weight: bold;
 }
 
+.enterprise{
+    padding: 20px 50px;
+}
+
 /* /PIANI */
+
+/* PARTNER */
+
+.partner{
+    padding: 100px 0;
+}
+
+.partner-text{
+    padding: 40px;
+}
+
+.partner-text p{
+    padding: 20px 0;
+}
+
+/* /PARTNER */
