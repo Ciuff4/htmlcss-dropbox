@@ -67,14 +67,17 @@ ul li{
 width: 100%;
 }
 
-.padd-left20{
-    padding-left: 20px;
-}
-
 .link{
     color: #0061FF;
     text-decoration: underline;
 }
+
+.team-box{
+    width:50%;
+    height: 50%;
+    line-height: calc(400px / 2);
+}
+
 
 /* DEBUG */
 .bug{

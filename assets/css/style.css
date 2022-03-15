@@ -160,3 +160,92 @@ h3{
 }
 
 /* /PARTNER */
+
+/* OPERATIONS */
+
+.operations .col33{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* OPERATIONS */
+
+/* 1ST-CALL-TO-ACTION */
+
+.frst-cta{
+    padding-bottom: 50px;
+}
+
+/* /1ST-CALL-TO-ACTION */
+
+/* TEAMS */
+
+.h400{
+    height: 400px;
+}
+
+.team-box img{
+    width: 100%;
+    vertical-align: middle;
+    padding: 40px 30px;
+    filter: invert(100%);
+}
+
+.designit{
+    background-color: #A2D39B;
+}
+
+.asu{
+    background-color: #61082B;
+}
+
+.uof{
+    background-color: #0093CE;
+}
+
+.topps{
+    background-color: #FF1C1C;
+}
+
+.team-description{
+    overflow: auto;
+    background-color: #F5F5F5;
+    padding: 30px;
+}
+
+.team-description img{
+    width: 40%;
+}
+
+.team-description hr{
+    width: 10%;
+    color: lightgray;
+    margin-top: 10px;
+}
+
+.team-description p{
+    padding:20px 0 ;
+}
+
+.selected{
+    border: 8px solid rgba(119, 116, 116, 0.52);
+}
+
+.wbr{
+    background-color: #D5001F;
+}
+
+.hearst_corp{
+    background-color: #B4D0E7;
+}
+
+.lonely_planet{
+    background-color: #0D2481;
+}
+
+.clear_channel{
+    background-color: #FFD830;
+}
+
+/* /TEAMS */
+
