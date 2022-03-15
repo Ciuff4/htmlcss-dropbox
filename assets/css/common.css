@@ -7,6 +7,10 @@
     margin: 0 auto;
 }
 
+.box{
+    display: inline-block;
+}
+
 .col50{
     width:50%;
 }
@@ -19,8 +23,12 @@
     width: 40%;
 }
 
-.box{
-    display: inline-block;
+.col33{
+    width: calc(100% / 3 - 40px);
+}
+
+.mrgn-right{
+    margin-right: 40px;
 }
 
 a{
@@ -40,6 +48,11 @@ ul li{
 
 .w100{
 width: 100vw;
+}
+
+.link{
+    color: #0061FF;
+    text-decoration: underline;
 }
 
 /* DEBUG */

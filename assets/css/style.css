@@ -3,6 +3,11 @@
 header{
     height: 50px;
     line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
 }
 
 header .col50{
@@ -61,3 +66,68 @@ h1{
     right: 0;
 }
 /* /JUMBOTRON */
+
+/* PIANI */
+
+.piani{
+    margin-top: 60px;
+}
+
+.plan-text{
+    padding-left: 15px;
+    
+}
+
+.piani .main-title{
+    padding: 70px 0 40px 0;
+    font-size: 50px;
+}
+
+.piani .col33{
+    border:1px solid black;
+}
+
+.plan-title{
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.col33 .plan-text ul li{
+    padding: 7px 0;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.time{
+    color: gray;
+}
+
+.col33 .plan-text .button{
+    margin: 20px 0;
+}
+
+.buy-now span{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.plan-ul{
+    min-height: 440px;
+}
+
+.plan-ul ul li::before{
+    content: "\2713";
+    color: green;
+    font-weight: bold;
+}
+
+/* /PIANI */
