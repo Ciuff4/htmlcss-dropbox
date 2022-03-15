@@ -249,3 +249,28 @@ h3{
 
 /* /TEAMS */
 
+/* 2nd-CALL-TO-ACTION */
+
+.scnd-cta{
+    background-color: #B4D0E7;
+    height: 250px;
+}
+
+.scnd-cta .main-title{
+    color: #5F0226;
+}
+
+.noborder{
+    border: none;
+}
+
+.scnd-cta .button{
+    margin-top: 90px;
+}
+
+.scnd-cta .col40{
+    padding: 0 80px;
+}
+
+/* 2nd-CALL-TO-ACTION */
+
