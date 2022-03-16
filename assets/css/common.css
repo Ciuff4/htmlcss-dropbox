@@ -39,6 +39,9 @@
     width: 30%;
 }
 
+.col20{
+    width: calc(100% / 5);
+}
 a{
     text-decoration: none;
     color: black;
