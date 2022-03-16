@@ -57,9 +57,17 @@ ul li{
     text-align: center;
 }
 
+.button:hover{
+    background-color: #7ca9f1;
+}
+
 .white{
     background-color: white;
     border: 1px solid black;
+}
+
+.white:hover{
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .button.white a{
@@ -83,14 +91,4 @@ width: 100%;
     width:50%;
     height: 50%;
     line-height: calc(400px / 2);
-}
-
-
-/* DEBUG */
-.bug{
-    background-color: red;
-}
-
-.h50{
-    height: 50px;
 }

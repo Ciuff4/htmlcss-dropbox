@@ -23,6 +23,13 @@ header ul li{
     padding: 0 20px;
 }
 
+header .button {
+    padding: 0 20px;
+}
+
+nav ul li:hover{
+    border-bottom: 1px solid black;
+}
 /* /HEADER */
 
 /* JUMBOTRON */
@@ -49,6 +56,10 @@ h1{
 .jumbo-text .col40 span{
     display: block;
     padding: 20px 0;
+}
+
+.jumbo-text .button {
+    padding: 0 20px;
 }
 
 .unsub{
@@ -157,6 +168,10 @@ h3{
 
 .partner-text p{
     padding: 20px 0;
+}
+
+.partner-text .button {
+    padding: 0 20px;
 }
 
 /* /PARTNER */
@@ -275,6 +290,10 @@ h3{
 /* 2nd-CALL-TO-ACTION */
 
 /* FAQ */
+
+.faq{
+    padding-bottom: 60px;
+}
 
 .faq .row{
     border-top: 1px solid lightgrey;
