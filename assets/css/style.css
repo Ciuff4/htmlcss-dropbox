@@ -86,7 +86,7 @@ h1{
     margin-right: 5%;
 }
 
-.row{
+.wrapper{
     padding-bottom: 30px;
 }
 
@@ -274,3 +274,17 @@ h3{
 
 /* 2nd-CALL-TO-ACTION */
 
+/* FAQ */
+
+.faq .row{
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.faq .col30 i {
+    padding-left: 280px;
+}
+
+/* FAQ */
